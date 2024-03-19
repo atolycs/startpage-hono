@@ -6,8 +6,8 @@ const Avatar: FC = () => {
         <div class="avatar">
           <img src="https://avatars.githubusercontent.com/atolycs" />
           <p> Atolycs </p>
-          <p><Link title="Github" url="https://github.com/atolycs" icon="Github" /></p>
-          <p><Link title="Cloudflare Pages" url="https://github.com/atolycs" icon="CloudflarePages" /></p>
+          <Link title="Github" url="https://github.com/atolycs" icon="Github" label={false} size="24" />
+          <Link title="Cloudflare Pages" url="https://github.com/atolycs" icon="CloudflarePages" size="24" label={false} />
         </div>
     )
 }
