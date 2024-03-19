@@ -1,5 +1,5 @@
 import type { FC } from "hono/jsx"
-import Icon from "./Icon"
+import SocialIcon from "./SocialIcon"
 
 export type props = {
     title: string;
@@ -18,7 +18,7 @@ const Link: FC<props> = (props) => {
         > 
         <>
         { icon 
-            && <Icon icon={icon} size={size} />
+            && <SocialIcon icon={icon} size={size} />
         } {title} 
         </>
         </a>

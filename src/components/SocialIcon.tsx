@@ -7,7 +7,7 @@ export type props = {
     size?: string
 }
 
-const Link: FC<props> = (props) => {
+const SocialIcon: FC<props> = (props) => {
     const {icon, size = "20"} = props
     return (
             <svg class={icon.toLowerCase()} width={size} height={size}>
@@ -22,4 +22,4 @@ const Link: FC<props> = (props) => {
 
 }
 
-export default Link
+export default SocialIcon
