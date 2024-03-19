@@ -1,0 +1,7 @@
+.avatar {
+    text-align: center;
+}
+.avatar > img {
+    border-radius: 100%;
+    width: 256px;
+}

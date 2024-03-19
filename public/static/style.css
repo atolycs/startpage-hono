@@ -1,1 +1,10 @@
-h1 { font-family: Arial, Helvetica, sans-serif; }
+
+@font-face {
+    font-family: "0xProtoNerdFont";
+    src:
+        url("/static/fonts/0xProtoNerdFont-Regular.woff2") format("woff2")
+}
+
+h1 { 
+    font-family: "0xProtoNerdFont", Arial, Helvetica, sans-serif;
+ }
